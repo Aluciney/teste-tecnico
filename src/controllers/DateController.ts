@@ -37,7 +37,7 @@ const DateController = {
 			}));
 
 			let errors = [];
-			for(var count = 0; count <= cities_formated.length; count ++){
+			for(var count = 0; count < cities_formated.length; count ++){
 				try {
 					await api.post('/testApi', cities_formated[count]);
 				} catch (error) {
