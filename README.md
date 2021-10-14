@@ -37,7 +37,7 @@ This endpoint only receives 3 parameters
 | dateStart | Search starting from this date |
 | dateEnd | Search ending by this date |
 
-## Exemple
+## Example
 
 [http://localhost:3001/api/date_range?state=PR&dateStart=2020-05-10&dateEnd=2021-05-10](http://localhost:3001/api/date_range?state=PR&dateStart=2020-05-10&dateEnd=2021-05-10)
 
